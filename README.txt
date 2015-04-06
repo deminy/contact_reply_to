@@ -5,7 +5,7 @@ will be "From" the email address configured in site_mail
 address that Drupal would have used as the From address.
 
 You can configure the addition of additional information to the subject and/or
-the body of the email at admin/settings/contact_reply_to.
+the body of the email at admin/config/system/contact_reply_to.
 
 This avoids many spam-classification issues. Many, many mail handlers will
 classify as spam a mail that comes from an unauthorized location, as this is

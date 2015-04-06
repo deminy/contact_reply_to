@@ -1,3 +1,5 @@
-name = Contact Form Reply To
+name = Contact Reply To
 description = Change mail sent via contact form to be from site and reply-to sender.
 core = 7.x
+dependencies[] = contact
+configure = admin/config/system/contact_reply_to
